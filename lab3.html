@@ -6,7 +6,7 @@
 
     <body>
         <!-- Header Section -->
-        <header>
+        <header id="bar">
             <h1>Lab 3 - Godzilla, Mothra, and King Gidorah (Rock Paper Scissors)  </h1>
         </header>
         
@@ -24,7 +24,24 @@
             <div class="content-area">
                 <div class="content-box">
                     <h1>Please choose one of the following:</h1>
-                    <p>Lorem ipsum...</p>
+                    
+                    <form>
+                     <label for="name">Name:</label>
+                     <input type="text"  id="name">   
+                    <br>
+                    <label for="choice"></label>
+                    <select name="choice" id="choice">
+                        <option value=""disabled selected>-- Select option--</option>
+                        <option value="option1">Godzilla</option>
+                        <option value="option2">Mothra</option>
+                        <option value="option3">King Gidorah</option>
+                    </select>
+
+                    <br>
+                     <input type="submit" name="submit" id="submit" value="submit">
+                     <br>
+                     
+                    </form>
                 </div>
             </div>
 
@@ -37,7 +54,7 @@
                 <ul>
                     <li>Godzilla beats King Gidorah</li>
                     <li>King Gidorah beats Mothra</li>
-                    <li>Mothra beats Godzilla</li>
+                    <li>Mothra beats Godzilla*</li>
                 </ul>
             </aside>
 
@@ -47,5 +64,9 @@
 
         
         <!-- Footer -->
+         <footer id="bar">
+            <p>*Mothra only beats Godzilla for the ourpose of this game.<br>
+            In reality, Godzilla is unbeatable &#128081;&#x1f98e;</p>
+         </footer>
     </body>
 </html>
