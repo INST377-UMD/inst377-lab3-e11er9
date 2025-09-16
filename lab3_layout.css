@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(164, 233, 233);
+}
+
+header {text-align: center;
+background-color:rgb(143, 202, 139);
+color: white;
+margin: 10;
+padding: 3;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
