@@ -2,12 +2,13 @@ body {
     background-color: rgb(164, 233, 233);
 }
 
-header {text-align: center;
+#bar {text-align: center;
 background-color:rgb(143, 202, 139);
 color: white;
 margin: 10;
 padding: 3;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+clear: both;
 }
 
 #main-nav {background-color: rgb(203, 59, 59);
@@ -47,3 +48,12 @@ margin: 1px;
 padding: 10px;
 }
 
+#choice {margin-top: 10px;}
+
+#submit {background-color: lightgray;
+margin-top: 10px;}
+
+#submit:hover {
+    background-color: darkgray;
+    color: white;
+}
