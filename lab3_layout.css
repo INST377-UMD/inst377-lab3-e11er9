@@ -24,6 +24,11 @@ padding: 3;
     color: white;
     
 }
+
+.content-area {
+    width: 67%;
+    float: left;
+}
 .content-box {
     background-color: green;
     border: 2px solid black;
@@ -31,3 +36,14 @@ padding: 3;
     margin: 5px;
     padding: 10px;
 }
+#rules {text-align: center;
+background-color: blue;
+border: black;
+float: right;
+width: 28%;
+border: 2px solid black;
+border-radius: 15px;
+margin: 1px;
+padding: 10px;
+}
+
