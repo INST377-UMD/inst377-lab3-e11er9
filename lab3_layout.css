@@ -7,7 +7,7 @@ background-color:rgb(143, 202, 139);
 color: white;
 margin: 10;
 padding: 3;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 clear: both;
 }
 
@@ -37,6 +37,14 @@ padding: 3;
     margin: 5px;
     padding: 10px;
 }
+
+.textbox {
+    width: 150px;
+    transition: width 0.3s;
+}
+.textbox:focus {
+    width: 250px
+}
 #rules {text-align: left;
 background-color: blue;
 border: black;
@@ -46,6 +54,10 @@ border: 2px solid black;
 border-radius: 15px;
 margin: 1px;
 padding: 10px;
+}
+
+.main-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #rules:hover {background-color: ivory;}
 
