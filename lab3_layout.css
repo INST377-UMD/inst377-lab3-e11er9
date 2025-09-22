@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(164, 233, 233);
+}
+
+.bar {text-align: center;
+background-color:rgb(143, 202, 139);
+color: white;
+margin: 10px;
+padding: 3px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+clear: both;
+}
+
+#main-nav {background-color: rgb(203, 59, 59);
+
+}
+
+#main-nav li{display: inline-block;
+position: relative;
+padding: 5px;
+}
+#main-nav li:hover {
+
+    background-color: aqua;
+    color: white;
+    
+}
+
+.content-area {
+    width: 67%;
+    float: left;
+    
+}
+.content-box {
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.textbox {
+    width: 150px;
+    transition: width 0.3s;
+}
+.textbox:focus {
+    width: 250px
+}
+#rules {text-align: left;
+background-color: blue;
+border: black;
+float: right;
+width: 28%;
+border: 2px solid black;
+border-radius: 15px;
+margin: 1px;
+margin-bottom: 10px;
+padding: 10px;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#rules:hover {background-color: ivory;}
+
+#choice {margin-top: 10px;}
+
+#submit {background-color: lightgray;
+margin-top: 10px;}
+
+#submit:hover {
+    background-color: darkgray;
+    color: white;
+}

@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>INST377 - lab3</title>
+        <link rel="stylesheet" href="lab3_layout.css">
+    </head>
+
+    <body>
+        <!-- Header Section -->
+         <div class="bar">
+            <header>
+                <h1>Lab 3 - Godzilla, Mothra, and King Gidorah (Rock Paper Scissors)  </h1>
+            </header>
+         </div>
+        
+        
+        <!-- Navigation Section -->
+        <nav id="main-nav">
+            <ul>
+                <li><a href="https://godzilla.fandom.com/wiki/Showa_era">Showa Era</a></li>
+                <li><a href="https://godzilla.fandom.com/wiki/Heisei_era">Heisei Era</a></li>
+                <li><a href="https://godzilla.fandom.com/wiki/Millennium_series">Millennium Era</a></li>
+            </ul>
+        </nav>
+        <!-- Main Content Area-->
+         
+        <div class="main-container">
+            <div class="content-area">
+                <div class="content-box">
+                    <h1>Please choose one of the following:</h1>
+                    
+                    <form>
+                     <label for="name">Name:</label>
+                     <input type="text"  id="name" class="textbox" required>   
+                    <br>
+                    <label for="choice">Your choice:</label>
+                    <select name="choice" id="choice">
+                        <option value=""disabled selected>-- Select option--</option>
+                        <option value="option1">Godzilla</option>
+                        <option value="option2">Mothra</option>
+                        <option value="option3">King Gidorah</option>
+                    </select>
+
+                    <br>
+                     <input type="submit" name="submit" id="submit" value="submit">
+                     <br>
+                     
+                    </form>
+                </div>
+            </div>
+<!-- Rules Section -->
+            <aside id="rules">
+                <h1><u>Rules:</u></h1>
+                
+                <h2>You must choose Godzilla, Mothra, or King Gidorah</h2>
+                <br>
+                <h2>The Combos are as follows:</h2>
+                <ul>
+                    <li>Godzilla beats King Gidorah</li>
+                    <li>King Gidorah beats Mothra</li>
+                    <li>Mothra beats Godzilla*</li>
+                </ul>
+            </aside>
+
+
+        </div>
+
+
+        
+        <!-- Footer -->
+         <div class="bar">
+            <footer>
+                <p>*Mothra only beats Godzilla for the ourpose of this game.<br>
+                In reality, Godzilla is unbeatable &#128081;&#x1f98e;</p>
+             </footer>
+
+         </div>
+         
+    </body>
+</html>
